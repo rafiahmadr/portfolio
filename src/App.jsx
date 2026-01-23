@@ -1,4 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop"; 
 import Home from "./pages/Home";
@@ -8,16 +7,14 @@ import { AnimatePresence } from "framer-motion";
 
 export default function App() {
   return (
-   <BrowserRouter>
+   <AnimatePresence mode="wait">
    <ScrollToTop />
    <Navbar />
-   <AnimatePresence mode="wait">
      <Routes>
        <Route path="/" element={<Home />} />
        <Route path="/about" element={<About />} />
        <Route path="/projects/:id" element={<ProjectDetail />} />
      </Routes>
    </AnimatePresence>
-</BrowserRouter>
   );
 }
