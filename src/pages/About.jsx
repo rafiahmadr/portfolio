@@ -1,6 +1,8 @@
 import { motion as Motion } from "framer-motion";
 import { aboutData } from "../data/about";
 import InspirationCredit from "../components/InspirationCredit";
+import ProfileImg from "../assets/Profile.png";
+import CVImg from "../assets/CV_Rafi.png";
 
 export default function About() {
   return (
@@ -12,7 +14,7 @@ export default function About() {
     >
       <section className="text-center max-w-3xl mx-auto space-y-6">
         <Motion.img
-          src={aboutData.intro.photo}
+          src={ProfileImg}
           alt="Profile"
           className="w-80 rounded-full object-cover mx-auto border border-neutral-300"
           initial={{ scale: 0.9, opacity: 0 }}
@@ -52,7 +54,7 @@ export default function About() {
 
         <div className="w-3/4 h-full rounded-xl overflow-hidden border items-center mx-auto border-neutral-300">
           <img
-            src={aboutData.resume.image}
+            src={CVImg}
             alt="Resume"
             className="w-full h-full object-cover"
           />
