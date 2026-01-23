@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion as Motion } from "framer-motion";
 import { projects } from "../data/projects";
 import InspirationCredit from "../components/InspirationCredit";
+import ProfileImg from "../assets/Profile.png";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         {/* Avatar */}
         <div className="w-32 h-32 rounded-full overflow-hidden border border-neutral-300">
           <img
-            src="/Profile.jpg"
+            src={ProfileImg}
             alt="Profile"
             className="w-full h-full object-cover"
           />
