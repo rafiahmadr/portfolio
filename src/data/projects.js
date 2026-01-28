@@ -76,7 +76,7 @@ export const projects = [
     title: "Robotics Event Project",
     year: "2022",
     cover: reCover,
-    images: re1,
+    images: [re1],
     description: [
       "This project was carried out while participating in Student Activity Unit (RESP) activities during my studies for the 2022 KRSRI competition. At that time, I was a member of the mechanical team working on the design, construction, and mechanical motion development. This work was carried out together with the mechanical team and in collaboration with the electrical and programming teams.",
       "During the process, I was required to modify several parts to accommodate the installation of new sensors. Repairs to the robot's motion components were also necessary because the mechanical components had not been in use for a year, resulting in smoother movement of the robot's six legs.",
