@@ -8,7 +8,7 @@ export const aboutData = {
     ],
     links: {
       linkedin: "https://www.linkedin.com/in/rafi-ahmad-ramadan/",
-      resume: "#",
+      resume: "https://drive.google.com/file/d/1k15ed7z8sVOOU_WWrTBqaw0hy15Y_UoO/view?usp=sharing",
     },
   },
 
@@ -18,17 +18,17 @@ export const aboutData = {
 
   experience: [
     {
-      company: "Teradyne",
-      title: "Test Engineer",
+      company: "PT. Dan Surya Persada",
+      title: "Electrical Technician (Freelance)",
       place: "Bogor",
-      year: "2024 – Present",
+      year: "2025",
       webs:"https://companieshouse.id/dan-surya-persada",
     },
     {
-      company: "Company Name",
-      title: "Engineering Intern",
+      company: "PT. Lucky Light Globalindo",
+      title: "Electrical Engineer (Internhship)",
       place: "Bogor",
-      year: "2023 – 2024",
+      year: "2023",
       webs:"https://www.linkedin.com/company/pt-lucy-light-globalindo/",
     },
   ],
@@ -36,36 +36,40 @@ export const aboutData = {
   projects: [
     {
       title: "Greenhouse Automation",
-      year: "2024",
-      desc: "2022",
+      year: "2024 -2025",
+      desc: "Assignment final project",
+      id: "greenhouse-automation",
     },
     {
-      title: "Conveyor Sorter System",
-      year: "2024",
-      desc: "2022",
+      title: "Automated Printer Tag",
+      year: "2025",
+      desc: "Client project",
+      id: "automate-printertag",
     },
     {
-      title: "Robot Event System",
-      year: "2024",
-      desc: "2022",
+      title: "Machine Commissioning",
+      year: "2025",
+      desc: "Freelance project",
+      id: "commissioning-machine",
     },
     {
-      title: "Electrical CAD Projects",
-      year: "2024",
-      desc: "2022",
+      title: "Electrical CAD",
+      year: "2023",
+      desc: "Internship project",
+      id: "electrical-cad",
     },
   ],
 
   organizations: [
     {
-      title: "Robotics Club",
+      title: "Robotics Engineering Society of Polman Bandung",
       description:
-        "Active member contributing to robotics competitions, system design, and collaborative engineering projects.",
+        "Participating in club activities in learning and knowledge transfer and became a mechanical developer of 6-legged robots for SAR robot competitions.",
     },
     {
-      title: "Engineering Society",
+      title: "Legislative Staff at MTH-HIMAMO",
       description:
-        "Participated in technical workshops, mentorship programs, and interdisciplinary engineering activities.",
+        "Organized and managed the association chairman election event and acted as liaison to collect and deliver members aspirations within the association.",
     },
   ],
 
@@ -73,6 +77,6 @@ export const aboutData = {
     title: "Automation & Control Certification",
     description:
       "Certification covering fundamentals of industrial automation, control systems, and practical implementation.",
-    link: "#",
+    link: "https://drive.google.com/file/d/15woiuEYi0xd27Qr5Lq3Nd5kcUvPI2ui0/view?usp=sharing",
   },
 };

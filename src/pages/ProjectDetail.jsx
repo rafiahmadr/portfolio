@@ -51,14 +51,14 @@ export default function ProjectDetail() {
             <img
               src={img}
               alt={`${project.title} ${index + 1}`}
-              className="w-xl object-cover items-center mx-auto mb-2"
+              className="w-2xl object-cover items-center mx-auto mb-2 h-2xl"
             />
           </Motion.div>
         ))}
       </div>
 
       {project.description.map((text, index) => (
-        <p key={index} className="text-neutral-700 leading-relaxed mb-6 mt-8">
+        <p key={index} className="text-neutral-700 leading-relaxed mb-6 mt-8 text-justify">
           {text}
         </p>
       ))}

@@ -64,7 +64,7 @@ export default function Home() {
             },
           },
         }}
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10 w-3/4"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-10 w-1/1"
       >
         {projects.map((project) => (
           <Link

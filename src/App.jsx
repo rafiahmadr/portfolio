@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail";
+import SCT from "./components/ScrollToTop";
 
 export default function App() {
   const location = useLocation();
@@ -13,6 +14,7 @@ export default function App() {
     <>
       {/* NAVBAR MUST STAY OUTSIDE AnimatePresence */}
       <Navbar />
+      <SCT />
 
       {/* PAGE TRANSITIONS ONLY */}
       <AnimatePresence mode="wait">

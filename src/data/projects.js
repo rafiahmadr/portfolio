@@ -1,33 +1,33 @@
 // greenhouse automation
-import ghCover from "../assets/projects/greenhouse-automation/cover.jpg";
-import gh1 from "../assets/projects/greenhouse-automation/greenhouse-automation-1.jpg";
-import gh2 from "../assets/projects/greenhouse-automation/greenhouse-automation-2.jpg";
-import gh3 from "../assets/projects/greenhouse-automation/greenhouse-automation-3.jpg";
+import ghCover from "../assets/projects/greenhouse-automation/cover.jpeg";
+import gh1 from "../assets/projects/greenhouse-automation/greenhouse-automation-1.png";
+import gh2 from "../assets/projects/greenhouse-automation/greenhouse-automation-2.png";
+import gh3 from "../assets/projects/greenhouse-automation/greenhouse-automation-3.png";
 
 // automate printer tag
-import ptCover from "../assets/projects/automate-printertag/cover.jpg";
-import pt1 from "../assets/projects/automate-printertag/automate-printertag-1.jpg";
-import pt2 from "../assets/projects/automate-printertag/automate-printertag-2.jpg";
+import ptCover from "../assets/projects/automate-printertag/cover.png";
+import pt1 from "../assets/projects/automate-printertag/automate-printertag-1.png";
+import pt2 from "../assets/projects/automate-printertag/automate-printertag-2.png";
+import pt3 from "../assets/projects/automate-printertag/automate-printertag-3.png";
 
 // conveyor sorter
-import csCover from "../assets/projects/conveyor-sorter/cover.jpg";
-import cs1 from "../assets/projects/conveyor-sorter/conveyor-sorter-1.jpg";
-import cs2 from "../assets/projects/conveyor-sorter/conveyor-sorter-2.jpg";
+//import csCover from "../assets/projects/conveyor-sorter/cover.jpg";
+//import cs1 from "../assets/projects/conveyor-sorter/conveyor-sorter-1.jpg";
+//import cs2 from "../assets/projects/conveyor-sorter/conveyor-sorter-2.jpg";
 
 // electrical CAD
-import ecCover from "../assets/projects/electrical-cad/cover.jpg";
-import ec1 from "../assets/projects/electrical-cad/electrical-cad-1.jpg";
-import ec2 from "../assets/projects/electrical-cad/electrical-cad-2.jpg";
+import ecCover from "../assets/projects/electrical-cad/cover.png";
+import ec1 from "../assets/projects/electrical-cad/electrical-cad-1.png";
 
 // robot event
-import reCover from "../assets/projects/robot-event/cover.jpg";
-import re1 from "../assets/projects/robot-event/robot-event-1.jpg";
-import re2 from "../assets/projects/robot-event/robot-event-2.jpg";
+import reCover from "../assets/projects/robot-event/cover.png";
+import re1 from "../assets/projects/robot-event/robot-event-1.png";
 
 // commissioning machine
-import cmCover from "../assets/projects/commissioning-machine/cover.jpg";
-import cm1 from "../assets/projects/commissioning-machine/commissioning-machine-1.jpg";
-import cm2 from "../assets/projects/commissioning-machine/commissioning-machine-2.jpg";
+import cmCover from "../assets/projects/commissioning-machine/cover.webp";
+import cm1 from "../assets/projects/commissioning-machine/commissioning-machine-1.webp";
+import cm2 from "../assets/projects/commissioning-machine/commissioning-machine-2.jpeg";
+import cm3 from "../assets/projects/commissioning-machine/commissioning-machine-3.webp";
 
 export const projects = [
   {
@@ -39,54 +39,18 @@ export const projects = [
     description: [
       "This project is my final assignment in college. With a focus on the qualitative approach desired by the client, the project was successfully completed for application in small-scale industrial production, in accordance with the size of the greenhouse used.",
       "The results of this project show that the water content in the samples can be reduced more than with the use of a conventional greenhouse alone. The design, construction, and implementation of the mechanical sector as well as the control and monitoring program were carried out by me under the guidance of my lecturer. This tool is also a modification of a small-scale conventional dryer that has been repurposed as a greenhouse heater. Fuzzy control is applied to regulate the required heat output and the direction of airflow to control the humidity in the room.",
+      "Further text can be seen at https://repositori.polman-bandung.ac.id/id/eprint/356/",
     ],
   },
   {
     id: "automate-printertag",
-    title: "Automated Printer Tag System",
-    year: "2023",
+    title: "Automated Printer Tag",
+    year: "2025",
     cover: ptCover,
-    images: [pt1, pt2],
+    images: [pt1, pt2, pt3],
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-      "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-      "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
-    ],
-  },
-  {
-    id: "conveyor-sorter",
-    title: "Conveyor Sorting System",
-    year: "2023",
-    cover: csCover,
-    images: [cs1, cs2],
-    description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-      "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-      "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
-    ],
-  },
-  {
-    id: "electrical-cad",
-    title: "Electrical CAD Design",
-    year: "2022",
-    cover: ecCover,
-    images: [ec1, ec2],
-    description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-      "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-      "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
-    ],
-  },
-  {
-    id: "robot-event",
-    title: "Robotics Event Project",
-    year: "2022",
-    cover: reCover,
-    images: [re1, re2],
-    description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-      "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-      "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
+      "The automatic printer tag is a client request to add a IoT function that can automatically tag processed items on several tables in the installed machine. This project is a mock-up as a preliminary step before transferring the work to the vendor who has accepted this job.",
+      "This automatic control runs linearly, where data input is generateds from reading the rotary encoder and data input in the HMI, which is then triggered by a button so that the PLC can send data to the database via LAN, which will activate PHP on the PC to process the printer. Automatic data processing is also carried out on the PLC and MySQL according to the client's wishes.",
     ],
   },
   {
@@ -94,11 +58,44 @@ export const projects = [
     title: "Machine Commissioning",
     year: "2025",
     cover: cmCover,
-    images: [cm1, cm2],
+    images: [cm1, cm2, cm3],
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-      "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-      "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
+      "This project is a freelance job from PT Dan Surya Persada for a client from PT Surya Rubberindo Industries. The work includes the installation process of all components and power from the main high voltage source panel. The work was carried out collaboratively between the mechanical and electrical teams in accordance with the client's targets and requirements.",
+      "I did this work starting from the commissioning stage, then the modification and safety check period, which ended with the warranty period. For the new machine, the installation went smoothly and only required minor modifications to improve machine safety in accordance with the client company's regulations. For the old machine, troubleshooting was also required to reactivate all features that had been disabled for a long time. Additional modifications were also made for machine functionality and safety. At the end of this project, IoT work was carried out for the automatic printer tag",
     ],
   },
+  {
+    id: "electrical-cad",
+    title: "Electrical CAD Design",
+    year: "2023",
+    cover: ecCover,
+    images: [ec1],
+    description: [
+      "This electrical CAD work was a drafting job I did during my internship at PT Lucky Light Globalindo. The job was the first step in the technical director's transition from drawings that required many sheets to just one sheet for transformer accessories.",
+      " This work required researching and understanding the components to be used and their wiring paths to improve visibility. I began this work by creating detailed CAD drawings of the components and discussing the components to be used with my supervisor. After completing four transformers, the work was handed over to other employees, and I moved on to other tasks.",
+    ],
+  },
+  {
+    id: "robot-event",
+    title: "Robotics Event Project",
+    year: "2022",
+    cover: reCover,
+    images: [re1],
+    description: [
+      "This project was carried out while participating in Student Activity Unit (RESP) activities during my studies for the 2022 KRSRI competition. At that time, I was a member of the mechanical team working on the design, construction, and mechanical motion development. This work was carried out together with the mechanical team and in collaboration with the electrical and programming teams.",
+      "During the process, I was required to modify several parts to accommodate the installation of new sensors. Repairs to the robot's motion components were also necessary because the mechanical components had not been in use for a year, resulting in smoother movement of the robot's six legs.",
+    ],
+  },
+// {
+//   id: "conveyor-sorter",
+//   title: "Conveyor Sorting System",
+//   year: "2023",
+//   cover: csCover,
+//   images: [cs1, cs2],
+//   description: [
+//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
+//     "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
+//     "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
+//   ],
+// },
 ];
