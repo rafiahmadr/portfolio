@@ -1,5 +1,5 @@
 // greenhouse automation
-import ghCover from "../assets/projects/greenhouse-automation/cover.jpeg";
+import ghCover from "../assets/projects/greenhouse-automation/cover.png";
 import gh1 from "../assets/projects/greenhouse-automation/greenhouse-automation-1.png";
 import gh2 from "../assets/projects/greenhouse-automation/greenhouse-automation-2.png";
 import gh3 from "../assets/projects/greenhouse-automation/greenhouse-automation-3.png";
@@ -16,14 +16,14 @@ import ecCover from "../assets/projects/electrical-cad/cover.png";
 import ec1 from "../assets/projects/electrical-cad/electrical-cad-1.png";
 
 // robot event
-import reCover from "../assets/projects/robot-event/cover.jpg";
-import re1 from "../assets/projects/robot-event/robot-event-1.jpg";
+import reCover from "../assets/projects/robot-event/cover.png";
+import re1 from "../assets/projects/robot-event/robot-event-1.png";
 
 // commissioning machine
-import cmCover from "../assets/projects/commissioning-machine/cover.webp";
-import cm1 from "../assets/projects/commissioning-machine/commissioning-machine-1.webp";
-import cm2 from "../assets/projects/commissioning-machine/commissioning-machine-2.jpeg";
-import cm3 from "../assets/projects/commissioning-machine/commissioning-machine-3.webp";
+import cmCover from "../assets/projects/commissioning-machine/cover.png";
+import cm1 from "../assets/projects/commissioning-machine/commissioning-machine-1.png";
+import cm2 from "../assets/projects/commissioning-machine/commissioning-machine-2.png";
+import cm3 from "../assets/projects/commissioning-machine/commissioning-machine-3.png";
 
 export const projects = [
   {
