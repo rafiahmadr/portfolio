@@ -10,10 +10,6 @@ import pt1 from "../assets/projects/automate-printertag/automate-printertag-1.pn
 import pt2 from "../assets/projects/automate-printertag/automate-printertag-2.png";
 import pt3 from "../assets/projects/automate-printertag/automate-printertag-3.png";
 
-// conveyor sorter
-//import csCover from "../assets/projects/conveyor-sorter/cover.jpg";
-//import cs1 from "../assets/projects/conveyor-sorter/conveyor-sorter-1.jpg";
-//import cs2 from "../assets/projects/conveyor-sorter/conveyor-sorter-2.jpg";
 
 // electrical CAD
 import ecCover from "../assets/projects/electrical-cad/cover.png";
@@ -86,16 +82,5 @@ export const projects = [
       "During the process, I was required to modify several parts to accommodate the installation of new sensors. Repairs to the robot's motion components were also necessary because the mechanical components had not been in use for a year, resulting in smoother movement of the robot's six legs.",
     ],
   },
-// {
-//   id: "conveyor-sorter",
-//   title: "Conveyor Sorting System",
-//   year: "2023",
-//   cover: csCover,
-//   images: [cs1, cs2],
-//   description: [
-//     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est, illum perferendis voluptatibus praesentium iste culpa veritatis excepturi minus in   aperiam accusantium.",
-//     "Ea beatae accusantium itaque vero voluptatibus, molestiae officiis doloremque harum aspernatur tempore.",
-//     "Eum laborum id consequuntur voluptas ipsum nihil odit, culpa excepturi.",
-//   ],
-// },
+
 ];
