@@ -63,20 +63,24 @@ export const aboutData = {
   organizations: [
     {
       title: "Robotics Engineering Society of Polman Bandung",
+      year: "2020 - 2024",
       description:
         "Participating in club activities in learning and knowledge transfer and became a mechanical developer of 6-legged robots for SAR robot competitions.",
     },
     {
       title: "Legislative Staff at MTH-HIMAMO",
+      year: "2021 - 2023",
       description:
         "Organized and managed the association chairman election event and acted as liaison to collect and deliver members aspirations within the association.",
     },
   ],
 
   certification: {
-    title: "Automation & Control Certification",
+    title: "Electrical Maintenance Junior Engineer",
+    publisher: "Badan Nasional Sertifikasi Profesi",
+    expire: "2023 - 2026",
     description:
-      "Certification covering fundamentals of industrial automation, control systems, and practical implementation.",
+      "Performing fundamental electrical maintenance and ensuring all necessary aspects are taken into consideration, from occupational safety and health  to teamwork.",
     link: "https://drive.google.com/file/d/15woiuEYi0xd27Qr5Lq3Nd5kcUvPI2ui0/view?usp=sharing",
   },
 };

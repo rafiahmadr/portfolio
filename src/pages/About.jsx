@@ -118,17 +118,18 @@ export default function About() {
           <div key={i} className="space-y-2">
             <h3 className="font-medium text-2xl">{org.title}</h3>
             <p className="text-neutral-600">{org.description}</p>
+            <p className=" text-neutral-500 mb-3">{org.year}</p>
           </div>
         ))}
       </section>
 
-      <section className="text-center space-y-4">
+      <section className="text-center space-y-4 max-w-2xl mx-auto">
         <h2 className="text-4xl font-medium text-center">Certification</h2>
-
-        <p className="text-neutral-600">
-          {aboutData.certification.description}
-        </p>
-
+          <div className="space-y-2">
+            <h3 className="font-medium text-2xl">{aboutData.certification.title}</h3>
+            <p className="text-neutral-600">{aboutData.certification.description}</p>
+            <p className=" text-neutral-500 mb-3">{aboutData.certification.expire}</p>
+          </div>
         <a
           href={aboutData.certification.link}
           target="_blank"
